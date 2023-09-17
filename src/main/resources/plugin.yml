@@ -1,0 +1,6 @@
+name: BlockPortals
+version: '${project.version}'
+main: me.dajman.blockportals.BlockPortals
+api-version: '1.20'
+authors: [DaJMaN]
+description: Plugin that adds teleports in form of blocks. 
