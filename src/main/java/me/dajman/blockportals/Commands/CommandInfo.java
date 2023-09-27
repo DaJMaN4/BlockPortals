@@ -1,4 +1,4 @@
-package me.worldclear.Commands;
+package me.dajman.blockportals.Commands;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

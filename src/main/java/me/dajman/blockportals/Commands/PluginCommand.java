@@ -1,4 +1,4 @@
-package me.worldclear.Commands;
+package me.dajman.blockportals.Commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
