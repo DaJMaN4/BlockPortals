@@ -1,0 +1,25 @@
+# Placeholders: %player%, %portal%, %usage%
+
+
+
+# Player messages
+wrongCommandUsage: "&cWrong command usage! &7Correct usage: &e%usage%"
+noPermission: "&cYou don't have permission to do that!"
+noPlayer: "&cYou must be a player to do that!"
+noPortal: "&cThere is no portal with that name!"
+listingPlayersPortals: "&7Listing portals to player &e%player%&7:"
+createdPortal: "&7Created portal &e%portal%&7."
+deletedPortal: "&7Deleted portal &e%portal%&7."
+portalAlreadyExists: "&cA portal with that name already exists!"
+portalsLocations: "&7Portal &e%portal%&7 locations:"
+teleportingPlayer: "&7Teleporting to portal &e%portal%&7."
+
+
+# Admin messages
+wrongAdminCommandUsage: "&cWrong command usage! &7Correct usage: &e%usage%"
+noPermissionAdmin: "&cYou don't have permission to do that!"
+deletePlayersPortal: "&7Deleting portal &e%portal%&7."
+deletePlayersPortals: "&7Deleting all portals to player &e%player%&7."
+portalsOwner: "&7Portal &e%portal%&7 owner: &e%owner%&7."
+teleportedToPortal: "&7Teleported to portal &e%portal%&7."
+teleportedPlayerToPortal: "&7Teleported player &e%player%&7 to portal &e%portal%&7."

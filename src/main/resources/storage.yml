@@ -1,0 +1,10 @@
+storage:
+  type: yaml # yaml, sqlite, mysql
+
+  host: 217.182.201.202
+  port: '3306'
+  database:
+  username:
+  password:
+  table:
+

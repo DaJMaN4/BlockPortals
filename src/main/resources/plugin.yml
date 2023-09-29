@@ -3,4 +3,57 @@ version: '${project.version}'
 main: me.dajman.blockportals.BlockPortals
 api-version: '1.20'
 authors: [DaJMaN]
-description: Plugin that adds teleports in form of blocks. 
+description: Plugin that adds teleports in form of blocks.
+prefix: '&8[&6BlockPortals&8] &7'
+
+commands:
+  blockportal:
+    description: Main command of BlockPortals plugin.
+    usage: /<command> [reload]
+    permission: blockportals.command
+    aliases: [ bp ]
+
+  adminblockportal:
+    description: Admin command of BlockPortals plugin.
+    usage: /<command> [reload]
+    permission: blockportals.admincommand
+    aliases: [ abp ]
+
+
+permissions:
+  blockportals.command:
+    default: true
+    description: Permission to use main command of BlockPortals plugin.
+  blockportals.admincommand:
+    default: op
+    description: Permission to use admin command of BlockPortals plugin.
+  blockportals.create:
+    default: true
+    description: Permission to create portals.
+  blockportals.delete:
+    default: true
+    description: Permission to delete portals.
+  blockportals.use:
+    default: true
+    description: Permission to use portals.
+  blockportals.reload:
+    default: op
+    description: Permission to reload plugin.
+
+
+  blockportals.admin:
+    default: op
+    description: Permission to use portals created by admins.
+    children:
+      blockportals.create: true
+      blockportals.delete: true
+      blockportals.use: true
+      blockportals.reload: true
+      blockportals.player: true
+
+
+
+placeholderapi:
+  blockportals:
+    description: Returns amount of portals created by player.
+    identifier: blockportals
